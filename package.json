@@ -1,0 +1,11 @@
+{
+  "name": "aerishub",
+  "version": "1.0.0",
+  "description": "",
+  "author": "akash.roy@digitalavenues.com",
+  "license": "ISC",
+  "scripts": {
+    "build": "cd nft-contract && cargo build --target wasm32-unknown-unknown --release",
+    "copy": "copy \"./nft-contract/target/wasm32-unknown-unknown/release/aerisHub.wasm\" \"./nft-contract/res/\""
+  }
+}
